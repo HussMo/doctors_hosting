@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
         ),
         home: Scaffold(
             appBar: AppBar(
-              backgroundColor: Theme.of(context).colorScheme.inversePrimary,
               title: const Text('Welcome to Flutter'),
             ),
             body: const Center(
